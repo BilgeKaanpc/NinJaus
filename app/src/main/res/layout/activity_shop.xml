@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="667dp"
+        android:layout_height="790dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arkap" />
+
+    <TextView
+        android:id="@+id/coinis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="625dp"
+        android:layout_marginEnd="200dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Coins: 0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="99dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="450dp"
+        app:layout_constraintBottom_toTopOf="@+id/coinis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/odak" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="144dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icem" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/power" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="209dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="450dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Using Sharp vision reduces the speed of the Nin Jaus in half for 5 seconds."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/coinis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="209dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Using the Full Strength mode allows you to strengthen your hits on the Nin jaus for 10 seconds and gain 2x points."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="214dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="Using Freeze Jutsu stops Nin Jaus for 2 seconds."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="575dp"
+        android:onClick="stayB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menubuton" />
+
+    <Button
+        android:id="@+id/sharinganBuyButton"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="375dp"
+        android:fontFamily="@font/amiko_bold"
+        android:onClick="sharinganBuy"
+        android:text="Buy - 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kageBuyButton"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="250dp"
+        android:fontFamily="@font/amiko_bold"
+        android:onClick="kageBuy"
+        android:text="Buy - 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sageBuyButton"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/amiko_bold"
+        android:onClick="sageBuy"
+        android:text="Buy - 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
