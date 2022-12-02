@@ -1,20 +1,13 @@
 # NinJaus
 
-  React clone project that includes most of Instagram’s features. (Register, Login, Forgot Password, Feed, Profile, Edit Profile, Direct Chat, Post, Follow, Unfollow, Like, Comment etc.)
+  My Android game project written in Java Programming language.
 
-![alt text](https://gcdnb.pbrd.co/images/DCK2i3oS4mSZ.png?o=1)
+![alt text](https://gcdnb.pbrd.co/images/aEPQZ62KRvyn.png?o=1)
+![alt text](https://gcdnb.pbrd.co/images/aKhIJ7xvvQLL.png?o=1)
+![alt text](https://gcdnb.pbrd.co/images/0xN000iEadtP.png?o=1)
 
-> Click to view live demo
-> (https://jubstaa-iclone.netlify.app)
 
 ## Techs I Used
 
-    - react
-    - redux
-    - react-router
-    - tailwind
-    - firebase auth
-    - firestore
-    - firebase realtime database
-    - firebase cloud storage
-    - classnames
+    - Java
+    - Android Studio
